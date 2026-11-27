@@ -1,0 +1,7 @@
+# Python 3.10+ for all scripts in datasets/*/scripts
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1,<4      # MEPSO workbooks
+tzdata                # time zone rules where the OS has none (Windows)
+plotly>=5.18          # charts in summary/
+kaleido>=0.2.1        # PNG export of the charts

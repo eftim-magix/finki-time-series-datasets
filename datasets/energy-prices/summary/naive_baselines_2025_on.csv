@@ -1,0 +1,4 @@
+country,period,naive_daily_MAE(lag24),naive_weekly_MAE(lag168),MASE_scale_weekly(train),MASE_naive_daily
+Hungary,2025-01-01 → 2026-11-26,28.45,33.77,21.06,1.351
+North Macedonia,2025-01-01 → 2026-11-26,22.12,30.02,24.9,0.888
+Serbia,2025-01-01 → 2026-11-26,26.89,33.05,21.44,1.254

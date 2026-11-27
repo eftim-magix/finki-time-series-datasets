@@ -1,0 +1,546 @@
+[
+  {
+    "timestamp_utc": "2020-10-25T10:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -7.689999999999998,
+    "replacement": -9.54,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T10:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": -7.689999999999998,
+    "replacement": -9.54,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T11:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -0.8599999999999994,
+    "replacement": -1.0700000000000003,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T11:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": -0.8599999999999994,
+    "replacement": -1.0700000000000003,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T12:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -0.41000000000000014,
+    "replacement": -0.620000000000001,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T12:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 4.849999999999998,
+    "replacement": 4.639999999999997,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T15:00:00Z",
+    "column": "preliminary_mfrr_up_mwh",
+    "previous": 115,
+    "replacement": 88,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T15:00:00Z",
+    "column": "preliminary_mfrr_total_mwh",
+    "previous": 115,
+    "replacement": 88,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T16:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -4.420000000000002,
+    "replacement": -9.420000000000002,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T16:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0.75,
+    "replacement": -4.25,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T17:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -4.390000000000001,
+    "replacement": -9.39,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T17:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0.25,
+    "replacement": -4.75,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T19:00:00Z",
+    "column": "preliminary_afrr_down_mwh",
+    "previous": -11.339999999999996,
+    "replacement": -9.009999999999998,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T19:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": -11.339999999999996,
+    "replacement": -9.009999999999998,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T20:00:00Z",
+    "column": "preliminary_afrr_up_mwh",
+    "previous": 5.610000000000003,
+    "replacement": 5.440000000000001,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T20:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 1.1000000000000014,
+    "replacement": 0.9299999999999997,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T21:00:00Z",
+    "column": "preliminary_afrr_up_mwh",
+    "previous": 5.599999999999998,
+    "replacement": 5.419999999999998,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2020-10-25T21:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0.9899999999999984,
+    "replacement": 0.8099999999999987,
+    "source_filename": "2020/MEPSO_balancing_prices_2020-10_preliminary_2020-10-25.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T00:00:00Z",
+    "column": "final_mfrr_up_mwh",
+    "previous": 20,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_final_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T00:00:00Z",
+    "column": "final_mfrr_total_mwh",
+    "previous": 20,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_final_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-30T22:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 10975.700796000001,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-30T22:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.489999999999998,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-30T23:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 10412.607133000001,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-30T23:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T00:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 7624.5842375,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T00:00:00Z",
+    "column": "preliminary_mfrr_total_mwh",
+    "previous": 0,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T02:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 5815.6535545,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T02:00:00Z",
+    "column": "preliminary_mfrr_total_mwh",
+    "previous": 0,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T03:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 8235.7844785,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T03:00:00Z",
+    "column": "preliminary_mfrr_total_mwh",
+    "previous": 0,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T04:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 9023.9922565,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T04:00:00Z",
+    "column": "preliminary_mfrr_total_mwh",
+    "previous": 0,
+    "replacement": 10,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T05:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 11571.482262,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T05:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 3.8299999999999983,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T06:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 12257.309374,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T06:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 3.7399999999999984,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T07:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 10453.92945,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T07:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.550000000000001,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T08:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 10453.92945,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T08:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.48,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T09:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 10177.625002,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T09:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.490000000000002,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T10:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 8162.699485000002,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T10:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.48,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T11:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 7478.105875,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T11:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.48,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T12:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 9512.150673,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T12:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.470000000000002,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T13:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 14083.509085,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T13:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.470000000000002,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T14:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 15794.993110000005,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T14:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.5,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T15:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 17352.906136,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T15:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.52,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T16:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 21023.808088,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T16:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.41,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T17:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 21652.894108,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T17:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.440000000000001,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T18:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 22380.660288,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T18:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.5,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T19:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 21283.460259000003,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T19:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.509999999999998,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T20:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 20354.016502,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T20:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.450000000000003,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T21:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 17299.86555,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T21:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.530000000000001,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T22:00:00Z",
+    "column": "preliminary_price_wappos_mkd_per_mwh",
+    "previous": 0,
+    "replacement": 15727.150499999998,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  },
+  {
+    "timestamp_utc": "2021-10-31T22:00:00Z",
+    "column": "preliminary_afrr_total_mwh",
+    "previous": 0,
+    "replacement": 4.09,
+    "source_filename": "2021/MEPSO_balancing_prices_2021-10_preliminary_2021-10-31.xlsx",
+    "reason": "explicit_single_day_supplement"
+  }
+]

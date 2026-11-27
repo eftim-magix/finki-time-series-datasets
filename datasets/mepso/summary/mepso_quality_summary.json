@@ -1,0 +1,263 @@
+{
+  "as_of": "2026-11-27",
+  "input_csv": "MEPSO_balancing_prices_hourly.csv",
+  "csv_sha256": "bc95f898560617438345c57c803a2b768c0cbe975ee58c5bb65af94635b7eb87",
+  "rows": 59904,
+  "expected_hours": 59904,
+  "months": 82,
+  "missing_grid_rows": 0,
+  "hours_without_measurements": 2928,
+  "hours_without_eur_prices_either_version": 3169,
+  "hours_without_final_eur_prices": 5139,
+  "preliminary_only_eur_hours": 1970,
+  "preliminary_only_eur_intervals": [
+    {
+      "start_utc": "2025-05-18T03:00:00+00:00",
+      "end_exclusive_utc": "2025-05-18T05:00:00+00:00",
+      "hours": 2
+    },
+    {
+      "start_utc": "2026-04-30T22:00:00+00:00",
+      "end_exclusive_utc": "2026-05-31T22:00:00+00:00",
+      "hours": 744
+    },
+    {
+      "start_utc": "2026-08-31T22:00:00+00:00",
+      "end_exclusive_utc": "2026-10-21T22:00:00+00:00",
+      "hours": 1224
+    }
+  ],
+  "coverage": [
+    {
+      "metric": "ace_mwh_per_h",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 40797,
+      "preliminary_coverage_percent": 68.104,
+      "preliminary_zero_hours": 1,
+      "final_filled_hours": 53154,
+      "final_coverage_percent": 88.732,
+      "final_zero_hours": 2,
+      "either_version_filled_hours": 54690
+    },
+    {
+      "metric": "afrr_down_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46391,
+      "preliminary_coverage_percent": 77.4422,
+      "preliminary_zero_hours": 28812,
+      "final_filled_hours": 54023,
+      "final_coverage_percent": 90.1826,
+      "final_zero_hours": 32675,
+      "either_version_filled_hours": 55991
+    },
+    {
+      "metric": "afrr_net_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 1440,
+      "preliminary_coverage_percent": 2.4038,
+      "preliminary_zero_hours": 206,
+      "final_filled_hours": 2183,
+      "final_coverage_percent": 3.6442,
+      "final_zero_hours": 422,
+      "either_version_filled_hours": 2183
+    },
+    {
+      "metric": "afrr_total_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46776,
+      "preliminary_coverage_percent": 78.0849,
+      "preliminary_zero_hours": 13193,
+      "final_filled_hours": 52584,
+      "final_coverage_percent": 87.7804,
+      "final_zero_hours": 13331,
+      "either_version_filled_hours": 54793
+    },
+    {
+      "metric": "afrr_up_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46391,
+      "preliminary_coverage_percent": 77.4422,
+      "preliminary_zero_hours": 26896,
+      "final_filled_hours": 54023,
+      "final_coverage_percent": 90.1826,
+      "final_zero_hours": 30879,
+      "either_version_filled_hours": 55991
+    },
+    {
+      "metric": "exchange_rate_mkd_per_eur",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 47085,
+      "preliminary_coverage_percent": 78.6008,
+      "preliminary_zero_hours": 0,
+      "final_filled_hours": 54765,
+      "final_coverage_percent": 91.4213,
+      "final_zero_hours": 0,
+      "either_version_filled_hours": 56733
+    },
+    {
+      "metric": "imbalance_price_deficit_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 47831,
+      "preliminary_coverage_percent": 79.8461,
+      "preliminary_zero_hours": 11,
+      "final_filled_hours": 54765,
+      "final_coverage_percent": 91.4213,
+      "final_zero_hours": 5,
+      "either_version_filled_hours": 56735
+    },
+    {
+      "metric": "imbalance_price_surplus_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 47831,
+      "preliminary_coverage_percent": 79.8461,
+      "preliminary_zero_hours": 11,
+      "final_filled_hours": 54765,
+      "final_coverage_percent": 91.4213,
+      "final_zero_hours": 5,
+      "either_version_filled_hours": 56735
+    },
+    {
+      "metric": "mfrr_down_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46391,
+      "preliminary_coverage_percent": 77.4422,
+      "preliminary_zero_hours": 30164,
+      "final_filled_hours": 54023,
+      "final_coverage_percent": 90.1826,
+      "final_zero_hours": 35685,
+      "either_version_filled_hours": 55991
+    },
+    {
+      "metric": "mfrr_net_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 1440,
+      "preliminary_coverage_percent": 2.4038,
+      "preliminary_zero_hours": 611,
+      "final_filled_hours": 2183,
+      "final_coverage_percent": 3.6442,
+      "final_zero_hours": 859,
+      "either_version_filled_hours": 2183
+    },
+    {
+      "metric": "mfrr_total_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46776,
+      "preliminary_coverage_percent": 78.0849,
+      "preliminary_zero_hours": 16876,
+      "final_filled_hours": 52584,
+      "final_coverage_percent": 87.7804,
+      "final_zero_hours": 19544,
+      "either_version_filled_hours": 54793
+    },
+    {
+      "metric": "mfrr_up_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 46391,
+      "preliminary_coverage_percent": 77.4422,
+      "preliminary_zero_hours": 32180,
+      "final_filled_hours": 54023,
+      "final_coverage_percent": 90.1826,
+      "final_zero_hours": 37977,
+      "either_version_filled_hours": 55991
+    },
+    {
+      "metric": "price_applied_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 42657,
+      "preliminary_coverage_percent": 71.2089,
+      "preliminary_zero_hours": 8,
+      "final_filled_hours": 48990,
+      "final_coverage_percent": 81.7808,
+      "final_zero_hours": 4,
+      "either_version_filled_hours": 50872
+    },
+    {
+      "metric": "price_vaa_minus_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 27542,
+      "preliminary_coverage_percent": 45.9769,
+      "preliminary_zero_hours": 22365,
+      "final_filled_hours": 30154,
+      "final_coverage_percent": 50.3372,
+      "final_zero_hours": 24376,
+      "either_version_filled_hours": 30329
+    },
+    {
+      "metric": "price_vaa_minus_mkd_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 26798,
+      "preliminary_coverage_percent": 44.7349,
+      "preliminary_zero_hours": 21623,
+      "final_filled_hours": 30156,
+      "final_coverage_percent": 50.3405,
+      "final_zero_hours": 24376,
+      "either_version_filled_hours": 30329
+    },
+    {
+      "metric": "price_vaa_plus_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 27542,
+      "preliminary_coverage_percent": 45.9769,
+      "preliminary_zero_hours": 22365,
+      "final_filled_hours": 30154,
+      "final_coverage_percent": 50.3372,
+      "final_zero_hours": 24376,
+      "either_version_filled_hours": 30329
+    },
+    {
+      "metric": "price_vaa_plus_mkd_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 26798,
+      "preliminary_coverage_percent": 44.7349,
+      "preliminary_zero_hours": 21623,
+      "final_filled_hours": 30156,
+      "final_coverage_percent": 50.3405,
+      "final_zero_hours": 24376,
+      "either_version_filled_hours": 30329
+    },
+    {
+      "metric": "price_wapneg_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 37084,
+      "preliminary_coverage_percent": 61.9057,
+      "preliminary_zero_hours": 15290,
+      "final_filled_hours": 41516,
+      "final_coverage_percent": 69.3042,
+      "final_zero_hours": 16333,
+      "either_version_filled_hours": 42663
+    },
+    {
+      "metric": "price_wapneg_mkd_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 36340,
+      "preliminary_coverage_percent": 60.6637,
+      "preliminary_zero_hours": 15009,
+      "final_filled_hours": 41516,
+      "final_coverage_percent": 69.3042,
+      "final_zero_hours": 16333,
+      "either_version_filled_hours": 42663
+    },
+    {
+      "metric": "price_wappos_eur_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 34325,
+      "preliminary_coverage_percent": 57.3,
+      "preliminary_zero_hours": 13470,
+      "final_filled_hours": 38533,
+      "final_coverage_percent": 64.3246,
+      "final_zero_hours": 14732,
+      "either_version_filled_hours": 39275
+    },
+    {
+      "metric": "price_wappos_mkd_per_mwh",
+      "expected_hours": 59904,
+      "preliminary_filled_hours": 33581,
+      "preliminary_coverage_percent": 56.058,
+      "preliminary_zero_hours": 13005,
+      "final_filled_hours": 38533,
+      "final_coverage_percent": 64.3246,
+      "final_zero_hours": 14732,
+      "either_version_filled_hours": 39275
+    }
+  ]
+}

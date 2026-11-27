@@ -1,0 +1,94 @@
+MEPSO HISTORICAL IMBALANCE SETTLEMENT PRICE ARCHIVE
+Checked: 2026-11-24 (Europe/Skopje)
+Source: https://www.mepso.com.mk/index.php/mk/pbee
+Destination: datasets/mepso/raw
+Scope: all Excel URLs in the settlement-price section of the supplied archive page (2020–2026), plus successfully validated filename corrections. No exhaustive inventory of unlinked server files is available.
+Listed links: 152; distinct linked URLs: 151
+Successfully retrieved original linked workbooks: 139
+Original linked URLs returning HTTP 404: 12
+Additional workbooks recovered at corrected URLs: 7
+Total preserved Excel files: 146; total bytes: 15892874
+
+FILES BY SOURCE URL YEAR (original filenames preserved)
+2020: 26
+2021: 26
+2022: 24
+2023: 8
+2024: 22
+2025: 24
+2026: 16
+
+VALIDATION
+Each saved file passed ZIP integrity checking, contained xl/workbook.xml, and loaded successfully as an Excel workbook. Numeric worksheet content was checked; dates were parsed from the settlement-price sheet (Excel dates, date strings, and dated headers). All 146 files have an identifiable content period. Monthly files contain all calendar dates for their actual month; the four October daylight-saving supplements intentionally contain one day. No cached Excel error cells were found in the inspected price sheets. This checks file/period integrity, not the economic correctness of prices or full hourly completeness. Workbooks were preserved byte-for-byte; formulas were not recalculated.
+Version labels come from MEPSO’s page. The same URL listed more than once is stored once, with all page references retained in the manifest.
+
+INCORRECT PERIODS / LINKS
+March 2020 preliminary: mart-preliminarna.xlsx contains June 2020, confirmed by dated rows and its price header. Preserved under its original source filename and flagged; it does not fill March preliminary coverage.
+September 2026 final: the page links to 2025/septemvri-konecna1.xlsx; content is September 2025. Stored once under 2025, not counted as September 2026 final. Tested corresponding 2026 filenames returned 404.
+October 2026 preliminary: linked oktomvri-preliminarna1.xlsx returns 404, but corrected oktomvri-preliminarna.xlsx was downloaded and validated as October 2026.
+
+ALL ORIGINAL 404 LINKS (and recovery if found)
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2020/aril-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2020/april-konecna.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/april-konecna.xlsx
+  No valid replacement found in the tested filename variants.
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/avgust-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/avgust-konecna1.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/dekemvri-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/dekemvri-konecna1.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/juli-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/juli-konecna1.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/juni-konecna.xlsx
+  No valid replacement found in the tested filename variants.
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/maj-konecna.xlsx
+  No valid replacement found in the tested filename variants.
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/mart-konecna.xlsx
+  No valid replacement found in the tested filename variants.
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/noemvri-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/noemvri-konecna1.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/septemvri-konecna.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2023/septemvri-konecna1.xlsx
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2026/maj-konecna.xlsx
+  No valid replacement found in the tested filename variants.
+https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2026/oktomvri-preliminarna1.xlsx
+  Recovered: https://www.mepso.com.mk/docs/pbee/cena_poramnuvanje/2026/oktomvri-preliminarna.xlsx
+
+MISSING COMPLETE MONTHS (no valid preliminary or final retrieved)
+2023-03, 2023-04, 2023-05, 2023-06
+
+MISSING VERSIONS / PUBLICATION STATUS
+not_linked means the supplied page does not publish that version; it does not establish that the file never existed. broken_or_wrong_period means a listed link could not supply matching data even after the tested corrections. The current month and future months are shown separately.
+2020-03 preliminary: broken_or_wrong_period
+2023-01 preliminary: not_linked
+2023-02 preliminary: not_linked
+2023-03 preliminary: not_linked
+2023-03 final: broken_or_wrong_period
+2023-04 preliminary: not_linked
+2023-04 final: broken_or_wrong_period
+2023-05 preliminary: not_linked
+2023-05 final: broken_or_wrong_period
+2023-06 preliminary: not_linked
+2023-06 final: broken_or_wrong_period
+2023-07 preliminary: not_linked
+2023-08 preliminary: not_linked
+2023-09 preliminary: not_linked
+2023-10 preliminary: not_linked
+2023-11 preliminary: not_linked
+2023-12 preliminary: not_linked
+2024-01 preliminary: not_linked
+2024-02 preliminary: not_linked
+2026-05 final: broken_or_wrong_period
+2026-08 preliminary: not_linked
+2026-09 final: broken_or_wrong_period
+2026-10 final: not_linked
+2026-11 preliminary: current_month_not_published
+2026-11 final: current_month_not_published
+2026-12 preliminary: future_not_due
+2026-12 final: future_not_due
+
+AUDIT FILES
+mepso-manifest.json: all source URLs, responses, repairs, SHA-256 checksums, sheet names, date evidence, page references and coverage.
+mepso-files.csv: compact file inventory including failed URLs.
+mepso-coverage.csv: monthly preliminary/final coverage grid.
+pbee.html: downloaded source-page snapshot (saved alongside the audit files in the destination).
+Existing unrelated files are never replaced. Identical existing files may be reused; differing filename collisions receive a hash suffix. The publish receipt records final paths and verification results.

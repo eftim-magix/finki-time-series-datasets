@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+~$*.xlsx
+
+# Large raw downloads: re-download with the dataset's scripts/fetch_*.py
+datasets/energy-prices/raw/
+datasets/energy-volumes/raw/
+
+# MEPSO parsing cache: rebuilt with python3 scripts/process_mepso.py --rebuild
+datasets/mepso/processed/.mepso-import.sqlite3
+
+# Workbooks that MEPSO revised, kept aside by fetch_mepso.py until --replace
+datasets/mepso/raw/**/*.revised-*
+

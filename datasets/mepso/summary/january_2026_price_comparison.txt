@@ -1,0 +1,30 @@
+JANUARY 2026 MEPSO PRICE COMPARISON
+
+Source: the settlement workbook of one PV plant for January 2026 (not distributed), Settlement sheet, J11:J754. Row 10 identifies the unit as MKD/kWh. B10 contains 61.695 MKD/EUR.
+
+Compared all 744 local hourly intervals with MEPSO_balancing_prices_hourly.csv using Europe/Skopje interval starts converted to UTC. H01 is local 00:00; January 1 H01 is 2025-12-31T23:00:00Z.
+
+Every J value matches a published EUR price component after:
+    J = EUR/MWh component * 61.695 / 1000
+Tolerance: relative 1e-9 or absolute 1e-8 MKD/kWh.
+
+Matching final component counts:
+final_price_wappos_eur_per_mwh: 323 hours
+final_price_wapneg_eur_per_mwh: 418 hours
+final_price_vaa_plus_eur_per_mwh: 2 hours
+final_price_vaa_minus_eur_per_mwh: 1 hour
+Unmatched: 0 hours.
+
+The same selected preliminary EUR values match all 744 hours as well. Consequently, numeric matching cannot identify whether this workbook used the preliminary or final release. The scalar MEPSO Price is not already a single named column in the merged CSV: its matching values exist across the four component columns. This is an exhaustive observed match for January, not a validated component-selection algorithm for other months. No sign reversal is needed.
+
+Example J11 (January 1 H01):
+129.50597955 EUR/MWh * 61.695 / 1000 = 7.98987140833725 MKD/kWh.
+The matching merged column is final_price_wappos_eur_per_mwh (also preliminary_price_wappos_eur_per_mwh).
+
+The merged file reports 61.495 MKD/EUR for that day, giving 7963.97021242725 MKD/MWh, or 7.96397021242725 MKD/kWh. This differs from J11 because the conversion rates differ. Across the month, the fixed workbook rate reproduces every J value from EUR prices; the daily-rate MKD values generally do not reproduce J.
+
+VAA matches occur on January 9 at local hours H04 and H05 (VAA plus) and H06 (VAA minus). The plant imbalance is zero in all three intervals, so these observations do not establish a VAA-selection rule from the plant imbalance sign.
+
+Column J is a unit price, not the monetary imbalance cost itself. The workbook calculates column O as -N*(J-K), using the plant imbalance N and the other price K. The merged MEPSO data supplies the price components, not the plant-specific nominations, realization, contractual price or resulting cash flow.
+
+The companion CSV gives each Excel row, UTC timestamp, observed J value, matching columns and source filenames. No source file or dataset was modified.
